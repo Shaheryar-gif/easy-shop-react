@@ -1,0 +1,335 @@
+*{
+   /* padding: 0 !important; */
+   margin: 0 !important;
+}
+/* .blink {
+   animation: blinker 1.s linear infinite;
+   color: red;
+   font-family: sans-serif;
+} */
+/* @keyframes blinker {
+   50% {
+       opacity: 0;
+   }
+} */
+
+.image:hover{
+   transform: scale(1.5s);
+   cursor: pointer;
+}
+
+/* .imgH:hover{
+  transform: scale(1.5s);
+  cursor: pointer;
+} */
+
+.navbar-nav{
+   text-decoration: underline;
+   color: rgb(0, 0, 0);
+}
+ 
+
+ /* Checkout.css */
+
+/* .container {
+   max-width: 800px;
+   margin: 0 auto;
+ } */
+ 
+ .checkout-container {
+   border: 1px solid #ddd;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ } 
+ 
+ /* table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+ }
+  */
+ /* th, td {
+   padding: 10px;
+   border: 1px solid #ddd;
+ } */
+ 
+ th {
+   background-color: #f2f2f2;
+ }
+ 
+ .btn-sm {
+   font-size: 14px;
+   padding: 5px 10px;
+ }
+ 
+ /* .btn-primary {
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 5px;
+   cursor: pointer;
+ } */
+ 
+ .btn-primary:hover {
+   background-color: #0056b3;
+ }
+ 
+ .text-center {
+   text-align: center;
+ }
+ 
+ .fs-3 {
+   font-size: 1.2em;
+ }
+ 
+ .fs-4 {
+   font-size: 1.4em;
+ }
+ 
+ .fw-bold {
+   font-weight: bold;
+ }
+
+ .card-img-top:hover {
+  transform: scale(.9);
+  transition: transform 0.5s ease-in-out;
+}
+.card-img:hover {
+  transform: scale(.9);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Navbar.css */
+
+.navbar{
+  background-color: #ffffff;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.card-img-top{
+  /* margin-left: 60px !important  ; */
+  padding: 30px;
+}
+
+.radius img{
+  width: 70%;
+  height: 300px;
+ border: 1px solid rgb(98, 98, 179);
+
+  border-radius: 50%;
+}
+
+.radius1 img{
+  width: 75%;
+  height: 250px;
+ border: 1px solid rgb(98, 98, 179);
+
+  border-radius: 50%;
+}
+ 
+
+
+.checkout-container {
+  margin-top: 50px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  border-radius: 50%;
+}
+
+.quantity-controls span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0 10px;
+}
+
+
+
+
+.container2 {
+    max-width: 450px;
+    margin: 70px auto; 
+    padding: 20px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    background-size: cover; 
+    background-position: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.underline {
+    display: block;
+    width: 140px;
+    height: 2px;
+    background-color: #333;
+    margin: 10px auto; 
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+.input {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input input {
+    width: calc(100% - 30px); 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Increased border-radius for rounded corners */
+    outline: none;
+    transition: border-color 0.3s ease; /* Added transition effect */
+}
+
+.input input:focus {
+    border-color: #007bff; /* Highlight border color on focus */
+}
+
+.input i {
+    position: absolute;
+    top: 50%;
+    left: 15px; /* Adjusted icon position */
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.submit {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px; /* Increased border-radius for rounded buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Added transition effect */
+}
+
+button:hover {
+    filter: brightness(90%); /* Slightly darken button on hover */
+}
+
+.Sign-In {
+    background-color: #007bff; /* Changed color to match the "Log-In" button */
+    color: #fff;
+}
+
+.Log-In {
+    background-color: #dc3545; /* Changed color to match the "Sign-In" button */
+    color: #fff;
+}
+
+
+
+
+/* small size 576 pixels  */
+/* @media (max-width: 767px) {
+  .carousel-item img {
+    height: auto;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+
+  .card img {
+    height: 300px;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+} */
+
+
+/* medium size 992 pixels  */
+@media (min-width : 992px) {
+  .text1{
+    height: 1200px;
+    /* font-weight: 400; */
+  }
+  .banner{
+    height: 1800px;
+    width: 120%;
+
+  }
+
+}
+
+/* Small size 992 pixels  */
+@media (min-width : 1200px) {
+  .text{
+    height: 1500px;
+    /* font-weight: 400; */
+  }
+  .banner{
+    height: 1200px;
+    width: 120%;
+
+  }
+}
+
+
+
+
+
+ @media screen and  (max-width:767px)  {
+  .npic{
+    height:130px;
+    width:120%;
+  }
+  
+}
+
+
+
+ @media screen and  (max-width:768px) and (max-width:1024px) {
+  .col-lg-3,
+  .col-md-6,
+  .col-sm-12 {
+    width: 100%;
+  }
+  
+}
+
